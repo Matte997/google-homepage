@@ -1,0 +1,100 @@
+#topnav {
+    display: inline-flex;
+    align-items: center;
+}
+#topnavright {
+    float: right;
+    position: absolute;
+    right: 0;
+}
+#topnavleft, #topnavright{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    font-size: 13px;
+    padding: 5px;
+    align-items: center;
+}
+.button {
+  background-color: rgb(105, 145, 204);
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 4px 2px;
+  border-radius: 4px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+#searchbar:hover, #searchbar:focus {
+    box-shadow: 0 0 4px #444;
+}
+.box {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+#searchbar {
+    margin: 0 auto;
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 14px;
+    border-color: rgb(235, 226, 226);
+    border-style: solid;
+    padding-left: 20px;
+}
+.buttons {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
+#footnavleft{
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 13px;
+    padding: 5px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+#footnavright {
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 13px;
+    padding: 5px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#buttons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.firstbutton, .secondbutton {
+    margin-right: 15px;
+    padding: 15px 20px;
+    background-color: rgb(236, 228, 228);
+    border-radius: 2px;
+}
+.firstbutton:hover, .secondbutton:hover {
+    box-shadow: 0 0 4px #444;
+}
